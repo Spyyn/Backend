@@ -13,3 +13,16 @@ Top down description of arcitecture:
   5. Number of link to 
   6. Number of links from
 3. 
+
+Internal importance: 
+# using phantom.js
+Calculate the size of the story div on the front page
+stroy_height * story_width
+and normalize by size of the homepage: 
+document.body.scrollHeight * document.body.scrollWidth
+
+Notes: 
+No regard to font size, position, related media (links, images, video etc) 
+
+
+
